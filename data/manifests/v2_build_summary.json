@@ -1,0 +1,47 @@
+{
+  "version": "intake_rag_v2_cross_department",
+  "source_evidence_sha256": "3df35f2aeb04e836ca54e721552a823fd8d64f65f42004061648282aa92ffbdc",
+  "corpus_sha256": "ba3e311384d653b1686d290043590826fcafb502cccb985ae3e22d1107271e75",
+  "corpus_count": 33,
+  "department_counts": {
+    "Neurology": 16,
+    "Urology": 4,
+    "Orthopedics": 11,
+    "Dermatology": 2
+  },
+  "label_status_counts": {
+    "V1_AI_weak_candidate_development_only": 10,
+    "specialty_mapped_weak_candidate_development_only": 23
+  },
+  "offline_checks": {
+    "chest_pressure": "passed",
+    "chest_metaphor": "passed",
+    "stroke_face_arm": "passed",
+    "stroke_side": "passed",
+    "stroke_words": "passed",
+    "instruction_input_review": "passed",
+    "cross_department_evidence_and_validation": "passed",
+    "urine_leakage_with_cough_not_hard_blocked": "passed",
+    "corpus_group_deduplication": "passed"
+  },
+  "inspected_regression_candidate_match_rate": 0.9083333333333333,
+  "candidate_match_rate_is_not_rag_accuracy": true,
+  "v1_150_is_regression_only": true,
+  "independent_v2_test_created": false,
+  "clinical_validation_completed": false,
+  "configuration": {
+    "version": "intake_rag_v2_cross_department",
+    "adult_age_min": 18,
+    "adult_age_max": 120,
+    "max_input_chars": 4000,
+    "word_weight": 0.55,
+    "char_weight": 0.45,
+    "char_ngram_min": 3,
+    "char_ngram_max": 5,
+    "evidence_per_department": 1,
+    "minimum_evidence_score": 0.01,
+    "max_evidence_chars": 850,
+    "max_api_calls": 200,
+    "model": "openai/gpt-4.1-mini"
+  }
+}

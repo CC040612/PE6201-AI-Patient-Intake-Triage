@@ -1,0 +1,41 @@
+﻿source_specialty,raw_row_count,target_department,policy,reason,mapping_version
+Allergy / Immunology,7,,excluded,Specialty or service outside initial eight-category scope,department_mapping_v1
+Autopsy,8,,excluded,Broad service or procedure category outside initial scope,department_mapping_v1
+Bariatrics,18,,excluded,Specialty or service outside initial eight-category scope,department_mapping_v1
+Cardiovascular / Pulmonary,372,Cardiovascular/Pulmonary,candidate_mapping,Within the eight-category scope,department_mapping_v1
+Chiropractic,14,,excluded,Specialty or service outside initial eight-category scope,department_mapping_v1
+Consult - History and Phy.,516,,excluded,"Document or administrative label, not a department",department_mapping_v1
+Cosmetic / Plastic Surgery,27,,excluded,Specialty or service outside initial eight-category scope,department_mapping_v1
+Dentistry,27,,excluded,Specialty or service outside initial eight-category scope,department_mapping_v1
+Dermatology,29,Dermatology,candidate_mapping,Within the eight-category scope,department_mapping_v1
+Diets and Nutritions,10,,excluded,Specialty or service outside initial eight-category scope,department_mapping_v1
+Discharge Summary,108,,excluded,"Document or administrative label, not a department",department_mapping_v1
+ENT - Otolaryngology,98,ENT,candidate_mapping,Within the eight-category scope,department_mapping_v1
+Emergency Room Reports,75,,excluded,Care setting does not establish current urgency,department_mapping_v1
+Endocrinology,19,,excluded,Specialty or service outside initial eight-category scope,department_mapping_v1
+Gastroenterology,230,Gastroenterology,candidate_mapping,Within the eight-category scope,department_mapping_v1
+General Medicine,259,General Medicine,candidate_mapping,Within the eight-category scope,department_mapping_v1
+Hematology - Oncology,90,,excluded,Specialty or service outside initial eight-category scope,department_mapping_v1
+Hospice - Palliative Care,6,,excluded,Specialty or service outside initial eight-category scope,department_mapping_v1
+IME-QME-Work Comp etc.,16,,excluded,"Document or administrative label, not a department",department_mapping_v1
+Lab Medicine - Pathology,8,,excluded,Broad service or procedure category outside initial scope,department_mapping_v1
+Letters,23,,excluded,"Document or administrative label, not a department",department_mapping_v1
+Nephrology,81,,excluded,Specialty or service outside initial eight-category scope,department_mapping_v1
+Neurology,223,Neurology,candidate_mapping,Within the eight-category scope,department_mapping_v1
+Neurosurgery,94,,excluded,Specialty or service outside initial eight-category scope,department_mapping_v1
+Obstetrics / Gynecology,160,,excluded,Specialty or service outside initial eight-category scope,department_mapping_v1
+Office Notes,51,,excluded,"Document or administrative label, not a department",department_mapping_v1
+Ophthalmology,83,,excluded,Specialty or service outside initial eight-category scope,department_mapping_v1
+Orthopedic,355,Orthopedics,candidate_mapping,Within the eight-category scope,department_mapping_v1
+Pain Management,62,,excluded,Specialty or service outside initial eight-category scope,department_mapping_v1
+Pediatrics - Neonatal,70,,excluded,Specialty or service outside initial eight-category scope,department_mapping_v1
+Physical Medicine - Rehab,21,,excluded,Specialty or service outside initial eight-category scope,department_mapping_v1
+Podiatry,47,,excluded,Specialty or service outside initial eight-category scope,department_mapping_v1
+Psychiatry / Psychology,53,,excluded,Specialty or service outside initial eight-category scope,department_mapping_v1
+Radiology,273,,excluded,Broad service or procedure category outside initial scope,department_mapping_v1
+Rheumatology,10,,excluded,Specialty or service outside initial eight-category scope,department_mapping_v1
+SOAP / Chart / Progress Notes,166,,excluded,"Document or administrative label, not a department",department_mapping_v1
+Sleep Medicine,20,,excluded,Specialty or service outside initial eight-category scope,department_mapping_v1
+Speech - Language,9,,excluded,Specialty or service outside initial eight-category scope,department_mapping_v1
+Surgery,1103,,excluded,Broad service or procedure category outside initial scope,department_mapping_v1
+Urology,158,Urology,candidate_mapping,Within the eight-category scope,department_mapping_v1

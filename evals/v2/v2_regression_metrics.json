@@ -1,0 +1,19 @@
+{
+  "evaluated_cases": 150,
+  "reference_routine_count": 120,
+  "routine_department_correct": 119,
+  "routine_department_accuracy": 0.9916666666666667,
+  "routine_review_count": 0,
+  "overall_review_count": 10,
+  "overall_review_rate": 0.06666666666666667,
+  "reference_emergency_count": 20,
+  "dangerous_misses": 0,
+  "dangerous_miss_rate": 0.0,
+  "false_escalations": 0,
+  "action_and_department_agreement": 0.9933333333333333,
+  "api_attempts": 126,
+  "validated_llm_outputs": 126,
+  "known_total_tokens": 147809,
+  "known_provider_reported_cost": 0.0726176,
+  "assessment": "Version 1 frozen cases reused as a Version 2 development regression set; not independent evaluation"
+}

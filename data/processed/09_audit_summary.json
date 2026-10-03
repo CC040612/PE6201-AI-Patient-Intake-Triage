@@ -1,0 +1,30 @@
+{
+  "mapping_version": "department_mapping_v1",
+  "source_filename": "mtsamples_original from Kaggle (1).csv",
+  "source_sha256": "a92cb78569f460606661ee7da50c92305b60d0fac2be4b06c8d2de0f234612d4",
+  "raw_rows": 4999,
+  "source_label_count": 40,
+  "missing_transcription_rows": 33,
+  "nonempty_transcription_rows": 4966,
+  "unique_normalized_transcription_groups": 2357,
+  "duplicate_rows_beyond_first": 2609,
+  "conflicting_department_groups": 80,
+  "excluded_no_target_groups": 725,
+  "unknown_label_review_groups": 0,
+  "candidate_groups": 1552,
+  "candidate_groups_with_multiple_source_labels": 1512,
+  "candidate_department_counts": {
+    "Cardiovascular/Pulmonary": 350,
+    "Dermatology": 26,
+    "ENT": 90,
+    "Gastroenterology": 210,
+    "General Medicine": 228,
+    "Neurology": 183,
+    "Orthopedics": 317,
+    "Urology": 148
+  },
+  "normalization": "Unicode NFKC and whitespace normalization; case preserved",
+  "near_duplicate_detection_completed": false,
+  "clinical_label_validation_completed": false,
+  "train_validation_test_split_created": false
+}

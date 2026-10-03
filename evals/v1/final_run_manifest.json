@@ -1,0 +1,14 @@
+{
+  "protocol": "frozen_step8_new150_synthetic_v1",
+  "application_sha256": "3cdb6d55a5052de4157f9be94cee7c3efa822c4f6c46b09670b9f6de2e2db883",
+  "cases_sha256": "a0a80e8b63663c242d2ca4657fbbe9773942dff63dfc3d17b3d43b05e6102d1f",
+  "count": 150,
+  "reference_status": "AI_provisional_not_human_reviewed",
+  "independent_clinical_evaluation": false,
+  "review_policy_sha256": "5d9131c7fec607531c7418d272cee591e1f7627879024e33e7654ff2a06457e8",
+  "max_api_calls": 150,
+  "case_order": "fixed_random_seed_6201",
+  "review_target_original_overall": 0.12,
+  "model_alias": "openai/gpt-4.1-mini",
+  "model_snapshot_pinned": false
+}

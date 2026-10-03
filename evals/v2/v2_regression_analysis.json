@@ -1,0 +1,69 @@
+{
+  "source_zip": "triage_v2_accuracy_20261003T090947_043890Z.zip",
+  "source_zip_sha256": "5b59e5a6f24f48e54ba98fb77b3cb5a37689292e956c6533e730f37ccc84e1e7",
+  "metrics": {
+    "evaluated_cases": 150,
+    "reference_routine_count": 120,
+    "routine_department_correct": 119,
+    "routine_department_accuracy": 0.9916666666666667,
+    "routine_review_count": 0,
+    "overall_review_count": 10,
+    "overall_review_rate": 0.06666666666666667,
+    "reference_emergency_count": 20,
+    "dangerous_misses": 0,
+    "dangerous_miss_rate": 0.0,
+    "false_escalations": 0,
+    "action_and_department_agreement": 0.9933333333333333,
+    "api_attempts": 126,
+    "validated_llm_outputs": 126,
+    "known_total_tokens": 147809,
+    "known_provider_reported_cost": 0.0726176,
+    "assessment": "Version 1 frozen cases reused as a Version 2 development regression set; not independent evaluation"
+  },
+  "department_breakdown": {
+    "Dermatology": {
+      "cases": 30,
+      "correct": 30,
+      "accuracy": 1.0
+    },
+    "Neurology": {
+      "cases": 30,
+      "correct": 29,
+      "accuracy": 0.9666666666666667
+    },
+    "Orthopedics": {
+      "cases": 30,
+      "correct": 30,
+      "accuracy": 1.0
+    },
+    "Urology": {
+      "cases": 30,
+      "correct": 30,
+      "accuracy": 1.0
+    }
+  },
+  "api_action_counts": {
+    "ROUTE_DEPARTMENT": 120,
+    "HUMAN_REVIEW": 4,
+    "EMERGENCY_ESCALATION": 2
+  },
+  "local_action_counts": {
+    "EMERGENCY_ESCALATION": 18,
+    "HUMAN_REVIEW": 6
+  },
+  "latency_ms": {
+    "count": 126,
+    "mean": 1219.8273095238096,
+    "median": 1182.7195,
+    "p95_nearest_rank": 1513.981,
+    "maximum": 2161.783
+  },
+  "mismatch_case_ids": [
+    "N048"
+  ],
+  "emergency_cases_requiring_model": [
+    "N132",
+    "N135"
+  ],
+  "interpretation": "Development regression on the previously inspected V1 150-case set. It measures change from V1 but is not an independent V2 performance estimate."
+}

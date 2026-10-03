@@ -1,0 +1,1448 @@
+{
+  "routine_cases": 120,
+  "top_candidate_matches": 109,
+  "top_candidate_match_rate": 0.9083333333333333,
+  "interpretation": "Development diagnostic on an inspected regression set. This ranks candidate departments only; it is not validated RAG accuracy and not independent evaluation.",
+  "rows": [
+    {
+      "case_id": "N097",
+      "reference_department": "Urology",
+      "top_candidate_department": "Urology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.022190678694024465,
+        "Neurology": 0.09607481565032916,
+        "Orthopedics": 0.059239435665367116,
+        "Urology": 0.12528616182432037
+      }
+    },
+    {
+      "case_id": "N001",
+      "reference_department": "Dermatology",
+      "top_candidate_department": "Orthopedics",
+      "top_candidate_matches_reference": false,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.2927063188954306,
+        "Neurology": 0.12406708630159279,
+        "Orthopedics": 0.30666620530101196,
+        "Urology": 0.06041687710874874
+      }
+    },
+    {
+      "case_id": "N109",
+      "reference_department": "Urology",
+      "top_candidate_department": "Urology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.07546159648809243,
+        "Neurology": 0.09124702086003919,
+        "Orthopedics": 0.09076905817050951,
+        "Urology": 0.3594341975776435
+      }
+    },
+    {
+      "case_id": "N075",
+      "reference_department": "Orthopedics",
+      "top_candidate_department": "Orthopedics",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.09019120077254383,
+        "Neurology": 0.07197189953129222,
+        "Orthopedics": 0.3583368752799188,
+        "Urology": 0.07680328120965026
+      }
+    },
+    {
+      "case_id": "N062",
+      "reference_department": "Orthopedics",
+      "top_candidate_department": "Orthopedics",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.02483959467909887,
+        "Neurology": 0.16516189311073293,
+        "Orthopedics": 0.30524315616334424,
+        "Urology": 0.023147109461811494
+      }
+    },
+    {
+      "case_id": "N014",
+      "reference_department": "Dermatology",
+      "top_candidate_department": "Dermatology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.29646863718563843,
+        "Neurology": 0.0685989135987859,
+        "Orthopedics": 0.25150764738144055,
+        "Urology": 0.017847341518900633
+      }
+    },
+    {
+      "case_id": "N027",
+      "reference_department": "Dermatology",
+      "top_candidate_department": "Orthopedics",
+      "top_candidate_matches_reference": false,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.2619701001213697,
+        "Neurology": 0.08315655074105728,
+        "Orthopedics": 0.29773452106419596,
+        "Urology": 0.05657062621814929
+      }
+    },
+    {
+      "case_id": "N040",
+      "reference_department": "Neurology",
+      "top_candidate_department": "Neurology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.04131560455997363,
+        "Neurology": 0.3916901286046176,
+        "Orthopedics": 0.06448851671898688,
+        "Urology": 0.013977192235136089
+      }
+    },
+    {
+      "case_id": "N064",
+      "reference_department": "Orthopedics",
+      "top_candidate_department": "Urology",
+      "top_candidate_matches_reference": false,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.052444096304861944,
+        "Neurology": 0.07091084997759958,
+        "Orthopedics": 0.06799117778303768,
+        "Urology": 0.0830743598071525
+      }
+    },
+    {
+      "case_id": "N042",
+      "reference_department": "Neurology",
+      "top_candidate_department": "Neurology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.01935571885878794,
+        "Neurology": 0.3116701998464033,
+        "Orthopedics": 0.2353000664861177,
+        "Urology": 0.017229644910167173
+      }
+    },
+    {
+      "case_id": "N114",
+      "reference_department": "Urology",
+      "top_candidate_department": "Urology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.04516904022553542,
+        "Neurology": 0.09183052583576327,
+        "Orthopedics": 0.06001335562698434,
+        "Urology": 0.27898680218281646
+      }
+    },
+    {
+      "case_id": "N085",
+      "reference_department": "Orthopedics",
+      "top_candidate_department": "Orthopedics",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.046550346375824884,
+        "Neurology": 0.18683123454052294,
+        "Orthopedics": 0.3292049964818149,
+        "Urology": 0.029270336058784176
+      }
+    },
+    {
+      "case_id": "N065",
+      "reference_department": "Orthopedics",
+      "top_candidate_department": "Orthopedics",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.015475219696861935,
+        "Neurology": 0.070942179771138,
+        "Orthopedics": 0.3824303577588113,
+        "Urology": 0.014030891894679116
+      }
+    },
+    {
+      "case_id": "N007",
+      "reference_department": "Dermatology",
+      "top_candidate_department": "Dermatology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.2758185900609421,
+        "Neurology": 0.06812720830157848,
+        "Orthopedics": 0.03705883285512336,
+        "Urology": 0.05474731284632395
+      }
+    },
+    {
+      "case_id": "N045",
+      "reference_department": "Neurology",
+      "top_candidate_department": "Neurology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.026702273234804605,
+        "Neurology": 0.31318693896415145,
+        "Orthopedics": 0.09103218893235938,
+        "Urology": 0.029738520498302574
+      }
+    },
+    {
+      "case_id": "N079",
+      "reference_department": "Orthopedics",
+      "top_candidate_department": "Orthopedics",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.0916803768914756,
+        "Neurology": 0.09148946090947684,
+        "Orthopedics": 0.29732467504338533,
+        "Urology": 0.03941648270067967
+      }
+    },
+    {
+      "case_id": "N032",
+      "reference_department": "Neurology",
+      "top_candidate_department": "Neurology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.025008084054079872,
+        "Neurology": 0.3930350600077078,
+        "Orthopedics": 0.033193473555160335,
+        "Urology": 0.03459763028054204
+      }
+    },
+    {
+      "case_id": "N071",
+      "reference_department": "Orthopedics",
+      "top_candidate_department": "Orthopedics",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.04086719941282894,
+        "Neurology": 0.11537056030352139,
+        "Orthopedics": 0.28785485776690667,
+        "Urology": 0.02079022490568323
+      }
+    },
+    {
+      "case_id": "N087",
+      "reference_department": "Orthopedics",
+      "top_candidate_department": "Orthopedics",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.0228835734078777,
+        "Neurology": 0.10015848298180569,
+        "Orthopedics": 0.2579102584267684,
+        "Urology": 0.03855097401968032
+      }
+    },
+    {
+      "case_id": "N003",
+      "reference_department": "Dermatology",
+      "top_candidate_department": "Dermatology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.09149492989935307,
+        "Neurology": 0.06568500067924893,
+        "Orthopedics": 0.03429997651590912,
+        "Urology": 0.06686936677322673
+      }
+    },
+    {
+      "case_id": "N066",
+      "reference_department": "Orthopedics",
+      "top_candidate_department": "Orthopedics",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.04986193046681341,
+        "Neurology": 0.09122483838696488,
+        "Orthopedics": 0.3822616122712843,
+        "Urology": 0.048617052637372676
+      }
+    },
+    {
+      "case_id": "N046",
+      "reference_department": "Neurology",
+      "top_candidate_department": "Neurology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.023995207397716017,
+        "Neurology": 0.45537859924555335,
+        "Orthopedics": 0.058920909396550314,
+        "Urology": 0.04952416739655749
+      }
+    },
+    {
+      "case_id": "N112",
+      "reference_department": "Urology",
+      "top_candidate_department": "Urology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.02050649942710492,
+        "Neurology": 0.09854281708924592,
+        "Orthopedics": 0.05031237674171596,
+        "Urology": 0.38005511114580215
+      }
+    },
+    {
+      "case_id": "N021",
+      "reference_department": "Dermatology",
+      "top_candidate_department": "Dermatology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.28664165661769403,
+        "Neurology": 0.05025473485621543,
+        "Orthopedics": 0.026640424234045636,
+        "Urology": 0.057649907369696884
+      }
+    },
+    {
+      "case_id": "N010",
+      "reference_department": "Dermatology",
+      "top_candidate_department": "Dermatology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.3571781634907999,
+        "Neurology": 0.10276701537163971,
+        "Orthopedics": 0.08152232604592081,
+        "Urology": 0.012484961859697677
+      }
+    },
+    {
+      "case_id": "N047",
+      "reference_department": "Neurology",
+      "top_candidate_department": "Neurology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.029318089974884665,
+        "Neurology": 0.10445734592275116,
+        "Orthopedics": 0.07851649756726949,
+        "Urology": 0.04454226454698519
+      }
+    },
+    {
+      "case_id": "N089",
+      "reference_department": "Orthopedics",
+      "top_candidate_department": "Orthopedics",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.08655244348794362,
+        "Neurology": 0.06443065555385621,
+        "Orthopedics": 0.5121928075942008,
+        "Urology": 0.022829071441614595
+      }
+    },
+    {
+      "case_id": "N017",
+      "reference_department": "Dermatology",
+      "top_candidate_department": "Neurology",
+      "top_candidate_matches_reference": false,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.04531852374491684,
+        "Neurology": 0.12570507603212863,
+        "Orthopedics": 0.057939495514368805,
+        "Urology": 0.046860093466889866
+      }
+    },
+    {
+      "case_id": "N009",
+      "reference_department": "Dermatology",
+      "top_candidate_department": "Dermatology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.2859672956158672,
+        "Neurology": 0.07459520421152598,
+        "Orthopedics": 0.16238586689080856,
+        "Urology": 0.04567461306858908
+      }
+    },
+    {
+      "case_id": "N063",
+      "reference_department": "Orthopedics",
+      "top_candidate_department": "Orthopedics",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.016235731764566677,
+        "Neurology": 0.0778954092676807,
+        "Orthopedics": 0.3536025093286866,
+        "Urology": 0.040793928258729274
+      }
+    },
+    {
+      "case_id": "N037",
+      "reference_department": "Neurology",
+      "top_candidate_department": "Neurology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.05662578068157559,
+        "Neurology": 0.1217210542478358,
+        "Orthopedics": 0.05881482947713637,
+        "Urology": 0.06367597352400389
+      }
+    },
+    {
+      "case_id": "N016",
+      "reference_department": "Dermatology",
+      "top_candidate_department": "Dermatology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.34298958187119244,
+        "Neurology": 0.12088689134464886,
+        "Orthopedics": 0.07847364057405976,
+        "Urology": 0.058586620311685156
+      }
+    },
+    {
+      "case_id": "N036",
+      "reference_department": "Neurology",
+      "top_candidate_department": "Neurology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.02532768444418347,
+        "Neurology": 0.09692921034021705,
+        "Orthopedics": 0.0557974096564357,
+        "Urology": 0.036949217483988994
+      }
+    },
+    {
+      "case_id": "N043",
+      "reference_department": "Neurology",
+      "top_candidate_department": "Neurology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.04213178542449322,
+        "Neurology": 0.4050566838148183,
+        "Orthopedics": 0.06332800539127052,
+        "Urology": 0.035082676736492645
+      }
+    },
+    {
+      "case_id": "N098",
+      "reference_department": "Urology",
+      "top_candidate_department": "Urology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.0325267361300759,
+        "Neurology": 0.06770707338969427,
+        "Orthopedics": 0.062075784284753424,
+        "Urology": 0.3661893565514516
+      }
+    },
+    {
+      "case_id": "N104",
+      "reference_department": "Urology",
+      "top_candidate_department": "Urology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.036868336608839945,
+        "Neurology": 0.09642859569875517,
+        "Orthopedics": 0.03847953642049295,
+        "Urology": 0.29913442570466103
+      }
+    },
+    {
+      "case_id": "N050",
+      "reference_department": "Neurology",
+      "top_candidate_department": "Neurology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.03629373914345713,
+        "Neurology": 0.30509375597988936,
+        "Orthopedics": 0.045341484650781805,
+        "Urology": 0.02757869676723958
+      }
+    },
+    {
+      "case_id": "N011",
+      "reference_department": "Dermatology",
+      "top_candidate_department": "Dermatology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.28265613966705433,
+        "Neurology": 0.12378180639028678,
+        "Orthopedics": 0.09616198342023984,
+        "Urology": 0.023085267786512195
+      }
+    },
+    {
+      "case_id": "N084",
+      "reference_department": "Orthopedics",
+      "top_candidate_department": "Orthopedics",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.08850794827566938,
+        "Neurology": 0.06534737866064418,
+        "Orthopedics": 0.322785633560918,
+        "Urology": 0.02523712284770794
+      }
+    },
+    {
+      "case_id": "N018",
+      "reference_department": "Dermatology",
+      "top_candidate_department": "Dermatology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.23818408588993567,
+        "Neurology": 0.06705148700934203,
+        "Orthopedics": 0.038788840275020144,
+        "Urology": 0.08906768682020015
+      }
+    },
+    {
+      "case_id": "N059",
+      "reference_department": "Neurology",
+      "top_candidate_department": "Orthopedics",
+      "top_candidate_matches_reference": false,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.07552130651625522,
+        "Neurology": 0.32556530081164003,
+        "Orthopedics": 0.3388773766419896,
+        "Urology": 0.021421863214420488
+      }
+    },
+    {
+      "case_id": "N020",
+      "reference_department": "Dermatology",
+      "top_candidate_department": "Dermatology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.2930746786529489,
+        "Neurology": 0.06839051111798734,
+        "Orthopedics": 0.03968542553518395,
+        "Urology": 0.10784680491735249
+      }
+    },
+    {
+      "case_id": "N095",
+      "reference_department": "Urology",
+      "top_candidate_department": "Urology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.01580626365968091,
+        "Neurology": 0.07039960488497041,
+        "Orthopedics": 0.044225285980893037,
+        "Urology": 0.24456327169688818
+      }
+    },
+    {
+      "case_id": "N029",
+      "reference_department": "Dermatology",
+      "top_candidate_department": "Dermatology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.39666728513729743,
+        "Neurology": 0.08467219693402821,
+        "Orthopedics": 0.08810415801355242,
+        "Urology": 0.023648226672823715
+      }
+    },
+    {
+      "case_id": "N100",
+      "reference_department": "Urology",
+      "top_candidate_department": "Urology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.01895550173282739,
+        "Neurology": 0.05152837996808937,
+        "Orthopedics": 0.03934985917199524,
+        "Urology": 0.31240935852748
+      }
+    },
+    {
+      "case_id": "N028",
+      "reference_department": "Dermatology",
+      "top_candidate_department": "Dermatology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.28535952716504404,
+        "Neurology": 0.079095918409301,
+        "Orthopedics": 0.27770868544052396,
+        "Urology": 0.036049464369993574
+      }
+    },
+    {
+      "case_id": "N031",
+      "reference_department": "Neurology",
+      "top_candidate_department": "Neurology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.03646287400592691,
+        "Neurology": 0.3055013029557579,
+        "Orthopedics": 0.05172022362415596,
+        "Urology": 0.08463216776913292
+      }
+    },
+    {
+      "case_id": "N023",
+      "reference_department": "Dermatology",
+      "top_candidate_department": "Dermatology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.32482128466375426,
+        "Neurology": 0.08105459335420112,
+        "Orthopedics": 0.06694406301737776,
+        "Urology": 0.06193593357715536
+      }
+    },
+    {
+      "case_id": "N053",
+      "reference_department": "Neurology",
+      "top_candidate_department": "Neurology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.058145822373091516,
+        "Neurology": 0.30797648487238255,
+        "Orthopedics": 0.07163487708748784,
+        "Urology": 0.04633929672208224
+      }
+    },
+    {
+      "case_id": "N096",
+      "reference_department": "Urology",
+      "top_candidate_department": "Urology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.015201243422825984,
+        "Neurology": 0.06208855177619136,
+        "Orthopedics": 0.0425467887381594,
+        "Urology": 0.3127561665198366
+      }
+    },
+    {
+      "case_id": "N006",
+      "reference_department": "Dermatology",
+      "top_candidate_department": "Urology",
+      "top_candidate_matches_reference": false,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.02965581273302701,
+        "Neurology": 0.07266401137187646,
+        "Orthopedics": 0.055332903295458695,
+        "Urology": 0.0776390354097371
+      }
+    },
+    {
+      "case_id": "N049",
+      "reference_department": "Neurology",
+      "top_candidate_department": "Neurology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.0735155879130115,
+        "Neurology": 0.4003459399934277,
+        "Orthopedics": 0.0660363121229639,
+        "Urology": 0.06895451750717942
+      }
+    },
+    {
+      "case_id": "N052",
+      "reference_department": "Neurology",
+      "top_candidate_department": "Neurology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.05491859771447806,
+        "Neurology": 0.2921537397541316,
+        "Orthopedics": 0.1289731764076615,
+        "Urology": 0.032313688897504744
+      }
+    },
+    {
+      "case_id": "N012",
+      "reference_department": "Dermatology",
+      "top_candidate_department": "Dermatology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.2966785218244517,
+        "Neurology": 0.08956228448025766,
+        "Orthopedics": 0.2228868330255137,
+        "Urology": 0.05516449359427751
+      }
+    },
+    {
+      "case_id": "N116",
+      "reference_department": "Urology",
+      "top_candidate_department": "Urology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.04239451059039885,
+        "Neurology": 0.0696003277423128,
+        "Orthopedics": 0.05679919312128171,
+        "Urology": 0.32684114300732403
+      }
+    },
+    {
+      "case_id": "N004",
+      "reference_department": "Dermatology",
+      "top_candidate_department": "Dermatology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.30347909182152405,
+        "Neurology": 0.07684627650186951,
+        "Orthopedics": 0.04416391915523607,
+        "Urology": 0.06242537394503477
+      }
+    },
+    {
+      "case_id": "N051",
+      "reference_department": "Neurology",
+      "top_candidate_department": "Neurology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.02786419537030027,
+        "Neurology": 0.3429934182320907,
+        "Orthopedics": 0.05683387631034001,
+        "Urology": 0.041393071393030716
+      }
+    },
+    {
+      "case_id": "N038",
+      "reference_department": "Neurology",
+      "top_candidate_department": "Neurology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.07124550561827897,
+        "Neurology": 0.35896722961615735,
+        "Orthopedics": 0.037609813037072656,
+        "Urology": 0.05129988695623411
+      }
+    },
+    {
+      "case_id": "N110",
+      "reference_department": "Urology",
+      "top_candidate_department": "Urology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.030536743452869632,
+        "Neurology": 0.08288680403495902,
+        "Orthopedics": 0.03497136275669269,
+        "Urology": 0.3457968764501479
+      }
+    },
+    {
+      "case_id": "N093",
+      "reference_department": "Urology",
+      "top_candidate_department": "Urology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.054319745269139234,
+        "Neurology": 0.11007026970896394,
+        "Orthopedics": 0.08380371677086991,
+        "Urology": 0.26597433611061205
+      }
+    },
+    {
+      "case_id": "N060",
+      "reference_department": "Neurology",
+      "top_candidate_department": "Neurology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.02123270225473482,
+        "Neurology": 0.307588272251321,
+        "Orthopedics": 0.0704324152961316,
+        "Urology": 0.02163754565886375
+      }
+    },
+    {
+      "case_id": "N002",
+      "reference_department": "Dermatology",
+      "top_candidate_department": "Dermatology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.3338277231375287,
+        "Neurology": 0.08899224937141803,
+        "Orthopedics": 0.07401092050780181,
+        "Urology": 0.03857050671773889
+      }
+    },
+    {
+      "case_id": "N073",
+      "reference_department": "Orthopedics",
+      "top_candidate_department": "Orthopedics",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.018385308493832568,
+        "Neurology": 0.05495443012093509,
+        "Orthopedics": 0.31539845681559414,
+        "Urology": 0.03733599429050882
+      }
+    },
+    {
+      "case_id": "N057",
+      "reference_department": "Neurology",
+      "top_candidate_department": "Neurology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.05543078484507864,
+        "Neurology": 0.33051895200439063,
+        "Orthopedics": 0.060904529874299576,
+        "Urology": 0.04155004967684114
+      }
+    },
+    {
+      "case_id": "N081",
+      "reference_department": "Orthopedics",
+      "top_candidate_department": "Orthopedics",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.014578647425044975,
+        "Neurology": 0.08108382709622729,
+        "Orthopedics": 0.3205155406137356,
+        "Urology": 0.03079718156382165
+      }
+    },
+    {
+      "case_id": "N113",
+      "reference_department": "Urology",
+      "top_candidate_department": "Urology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.04092283642621312,
+        "Neurology": 0.12632554545564495,
+        "Orthopedics": 0.0453426670816982,
+        "Urology": 0.28705489650347726
+      }
+    },
+    {
+      "case_id": "N086",
+      "reference_department": "Orthopedics",
+      "top_candidate_department": "Orthopedics",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.016885018182655403,
+        "Neurology": 0.06658421999131285,
+        "Orthopedics": 0.2622241270467882,
+        "Urology": 0.016720607715613643
+      }
+    },
+    {
+      "case_id": "N088",
+      "reference_department": "Orthopedics",
+      "top_candidate_department": "Orthopedics",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.012444603263822933,
+        "Neurology": 0.0843392372327307,
+        "Orthopedics": 0.32481814202028825,
+        "Urology": 0.022314728722214117
+      }
+    },
+    {
+      "case_id": "N082",
+      "reference_department": "Orthopedics",
+      "top_candidate_department": "Orthopedics",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.028482182586930554,
+        "Neurology": 0.08333837052140311,
+        "Orthopedics": 0.2886979096706422,
+        "Urology": 0.031936539914931665
+      }
+    },
+    {
+      "case_id": "N055",
+      "reference_department": "Neurology",
+      "top_candidate_department": "Neurology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.020889902814752975,
+        "Neurology": 0.35270302347785887,
+        "Orthopedics": 0.034855648254380915,
+        "Urology": 0.02149095768099067
+      }
+    },
+    {
+      "case_id": "N008",
+      "reference_department": "Dermatology",
+      "top_candidate_department": "Dermatology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.31576733570436066,
+        "Neurology": 0.0870492526203182,
+        "Orthopedics": 0.07263635638562436,
+        "Urology": 0.04842475994213885
+      }
+    },
+    {
+      "case_id": "N019",
+      "reference_department": "Dermatology",
+      "top_candidate_department": "Dermatology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.30898405660183004,
+        "Neurology": 0.05101203531083831,
+        "Orthopedics": 0.03236196242596296,
+        "Urology": 0.014990773956729259
+      }
+    },
+    {
+      "case_id": "N033",
+      "reference_department": "Neurology",
+      "top_candidate_department": "Neurology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.04969502040376983,
+        "Neurology": 0.08846807148806846,
+        "Orthopedics": 0.07515734441797968,
+        "Urology": 0.02380406153485289
+      }
+    },
+    {
+      "case_id": "N048",
+      "reference_department": "Neurology",
+      "top_candidate_department": "Orthopedics",
+      "top_candidate_matches_reference": false,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.03395553315922528,
+        "Neurology": 0.11503447199293163,
+        "Orthopedics": 0.3852058409133053,
+        "Urology": 0.0598402065033714
+      }
+    },
+    {
+      "case_id": "N099",
+      "reference_department": "Urology",
+      "top_candidate_department": "Urology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.03270081709410721,
+        "Neurology": 0.11678151342662463,
+        "Orthopedics": 0.049374815678946415,
+        "Urology": 0.2955911371140889
+      }
+    },
+    {
+      "case_id": "N054",
+      "reference_department": "Neurology",
+      "top_candidate_department": "Neurology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.07293465728085671,
+        "Neurology": 0.10274495545580409,
+        "Orthopedics": 0.05605370287374151,
+        "Urology": 0.028588444643753097
+      }
+    },
+    {
+      "case_id": "N091",
+      "reference_department": "Urology",
+      "top_candidate_department": "Urology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.026007550595561493,
+        "Neurology": 0.08882139924456434,
+        "Orthopedics": 0.11595846460562818,
+        "Urology": 0.3325092949755913
+      }
+    },
+    {
+      "case_id": "N025",
+      "reference_department": "Dermatology",
+      "top_candidate_department": "Dermatology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.2744850984979218,
+        "Neurology": 0.10213607406128507,
+        "Orthopedics": 0.05594795352303514,
+        "Urology": 0.05580427230209292
+      }
+    },
+    {
+      "case_id": "N111",
+      "reference_department": "Urology",
+      "top_candidate_department": "Urology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.028759843071484104,
+        "Neurology": 0.06902448119375947,
+        "Orthopedics": 0.04364258878077795,
+        "Urology": 0.3246428239110071
+      }
+    },
+    {
+      "case_id": "N015",
+      "reference_department": "Dermatology",
+      "top_candidate_department": "Orthopedics",
+      "top_candidate_matches_reference": false,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.2863152176339636,
+        "Neurology": 0.016057346387830417,
+        "Orthopedics": 0.3734675382670868,
+        "Urology": 0.012987266648780096
+      }
+    },
+    {
+      "case_id": "N108",
+      "reference_department": "Urology",
+      "top_candidate_department": "Urology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.012696723330969382,
+        "Neurology": 0.09969812780218305,
+        "Orthopedics": 0.05285029707627192,
+        "Urology": 0.29268664013374607
+      }
+    },
+    {
+      "case_id": "N056",
+      "reference_department": "Neurology",
+      "top_candidate_department": "Neurology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.06030038249541745,
+        "Neurology": 0.11724648325051353,
+        "Orthopedics": 0.07706158772911331,
+        "Urology": 0.056821660527392306
+      }
+    },
+    {
+      "case_id": "N005",
+      "reference_department": "Dermatology",
+      "top_candidate_department": "Orthopedics",
+      "top_candidate_matches_reference": false,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.2697321330467568,
+        "Neurology": 0.0797790297360229,
+        "Orthopedics": 0.2788053517906196,
+        "Urology": 0.04745615785398455
+      }
+    },
+    {
+      "case_id": "N101",
+      "reference_department": "Urology",
+      "top_candidate_department": "Urology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.08898835364508034,
+        "Neurology": 0.06071462616134379,
+        "Orthopedics": 0.05814579470811926,
+        "Urology": 0.26260903251499707
+      }
+    },
+    {
+      "case_id": "N013",
+      "reference_department": "Dermatology",
+      "top_candidate_department": "Dermatology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.33291072448106634,
+        "Neurology": 0.10235630262476975,
+        "Orthopedics": 0.053651692309533296,
+        "Urology": 0.0701986498079029
+      }
+    },
+    {
+      "case_id": "N120",
+      "reference_department": "Urology",
+      "top_candidate_department": "Urology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.038152323482219384,
+        "Neurology": 0.07988004394138633,
+        "Orthopedics": 0.055932445199241454,
+        "Urology": 0.2812198739264617
+      }
+    },
+    {
+      "case_id": "N069",
+      "reference_department": "Orthopedics",
+      "top_candidate_department": "Orthopedics",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.10380267165963047,
+        "Neurology": 0.09406240832355517,
+        "Orthopedics": 0.2518573065744797,
+        "Urology": 0.04477676815248389
+      }
+    },
+    {
+      "case_id": "N030",
+      "reference_department": "Dermatology",
+      "top_candidate_department": "Dermatology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.38666491345176884,
+        "Neurology": 0.07132326154560614,
+        "Orthopedics": 0.04308630565099281,
+        "Urology": 0.08935518688053462
+      }
+    },
+    {
+      "case_id": "N077",
+      "reference_department": "Orthopedics",
+      "top_candidate_department": "Orthopedics",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.04126370280760059,
+        "Neurology": 0.08331389292332683,
+        "Orthopedics": 0.44148253630672896,
+        "Urology": 0.03564079632050729
+      }
+    },
+    {
+      "case_id": "N115",
+      "reference_department": "Urology",
+      "top_candidate_department": "Urology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.04698579424903059,
+        "Neurology": 0.08407178792718997,
+        "Orthopedics": 0.04449006620580766,
+        "Urology": 0.404772699935273
+      }
+    },
+    {
+      "case_id": "N102",
+      "reference_department": "Urology",
+      "top_candidate_department": "Urology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.14736837176163883,
+        "Neurology": 0.1254674783054858,
+        "Orthopedics": 0.09507955973650065,
+        "Urology": 0.3350033026848164
+      }
+    },
+    {
+      "case_id": "N072",
+      "reference_department": "Orthopedics",
+      "top_candidate_department": "Orthopedics",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.03447007492646397,
+        "Neurology": 0.05841071243551377,
+        "Orthopedics": 0.38186632464239145,
+        "Urology": 0.04803703891938965
+      }
+    },
+    {
+      "case_id": "N119",
+      "reference_department": "Urology",
+      "top_candidate_department": "Urology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.07129909392328444,
+        "Neurology": 0.18163746911955136,
+        "Orthopedics": 0.062171878968875396,
+        "Urology": 0.32749156407586655
+      }
+    },
+    {
+      "case_id": "N044",
+      "reference_department": "Neurology",
+      "top_candidate_department": "Neurology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.065861625311163,
+        "Neurology": 0.2758310719538556,
+        "Orthopedics": 0.09491136166923338,
+        "Urology": 0.07258246312632859
+      }
+    },
+    {
+      "case_id": "N076",
+      "reference_department": "Orthopedics",
+      "top_candidate_department": "Orthopedics",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.03043413941716444,
+        "Neurology": 0.06596714358624346,
+        "Orthopedics": 0.44207605558785307,
+        "Urology": 0.029452583825174912
+      }
+    },
+    {
+      "case_id": "N070",
+      "reference_department": "Orthopedics",
+      "top_candidate_department": "Orthopedics",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.01999320791001482,
+        "Neurology": 0.06670849144324796,
+        "Orthopedics": 0.21040570236176676,
+        "Urology": 0.050444298467373576
+      }
+    },
+    {
+      "case_id": "N068",
+      "reference_department": "Orthopedics",
+      "top_candidate_department": "Orthopedics",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.041164907260765556,
+        "Neurology": 0.07054532853817261,
+        "Orthopedics": 0.27156599753392824,
+        "Urology": 0.03417382178876371
+      }
+    },
+    {
+      "case_id": "N083",
+      "reference_department": "Orthopedics",
+      "top_candidate_department": "Orthopedics",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.08486492509846845,
+        "Neurology": 0.09374716714406775,
+        "Orthopedics": 0.36530601426500253,
+        "Urology": 0.028349070203669627
+      }
+    },
+    {
+      "case_id": "N092",
+      "reference_department": "Urology",
+      "top_candidate_department": "Urology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.047291490123852246,
+        "Neurology": 0.06713578412381527,
+        "Orthopedics": 0.040213443554735884,
+        "Urology": 0.30093971776383804
+      }
+    },
+    {
+      "case_id": "N078",
+      "reference_department": "Orthopedics",
+      "top_candidate_department": "Neurology",
+      "top_candidate_matches_reference": false,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.05435182818406026,
+        "Neurology": 0.300570775540388,
+        "Orthopedics": 0.2561835146822696,
+        "Urology": 0.04643669481230272
+      }
+    },
+    {
+      "case_id": "N024",
+      "reference_department": "Dermatology",
+      "top_candidate_department": "Dermatology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.3926935185379236,
+        "Neurology": 0.05457064752263988,
+        "Orthopedics": 0.027542564541389692,
+        "Urology": 0.007367757076393033
+      }
+    },
+    {
+      "case_id": "N074",
+      "reference_department": "Orthopedics",
+      "top_candidate_department": "Dermatology",
+      "top_candidate_matches_reference": false,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.11560727006143737,
+        "Neurology": 0.0773598477925302,
+        "Orthopedics": 0.08667174132975541,
+        "Urology": 0.03493251852172639
+      }
+    },
+    {
+      "case_id": "N080",
+      "reference_department": "Orthopedics",
+      "top_candidate_department": "Orthopedics",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.03861645975188469,
+        "Neurology": 0.06734552635752876,
+        "Orthopedics": 0.45773983855317396,
+        "Urology": 0.04171828289495694
+      }
+    },
+    {
+      "case_id": "N106",
+      "reference_department": "Urology",
+      "top_candidate_department": "Urology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.031561729345012696,
+        "Neurology": 0.08380293814204408,
+        "Orthopedics": 0.04419278654132497,
+        "Urology": 0.28618096385242003
+      }
+    },
+    {
+      "case_id": "N026",
+      "reference_department": "Dermatology",
+      "top_candidate_department": "Dermatology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.2941317452287031,
+        "Neurology": 0.08654535002925556,
+        "Orthopedics": 0.04380878156611695,
+        "Urology": 0.05106099673230943
+      }
+    },
+    {
+      "case_id": "N107",
+      "reference_department": "Urology",
+      "top_candidate_department": "Urology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.05578054138953917,
+        "Neurology": 0.0643390450331085,
+        "Orthopedics": 0.05190213933465766,
+        "Urology": 0.3189758165696003
+      }
+    },
+    {
+      "case_id": "N103",
+      "reference_department": "Urology",
+      "top_candidate_department": "Urology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.019753984167141442,
+        "Neurology": 0.06519709414469924,
+        "Orthopedics": 0.03355743454562595,
+        "Urology": 0.2672939849467877
+      }
+    },
+    {
+      "case_id": "N067",
+      "reference_department": "Orthopedics",
+      "top_candidate_department": "Orthopedics",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.06808810274894254,
+        "Neurology": 0.11317014548997394,
+        "Orthopedics": 0.3456844346046367,
+        "Urology": 0.055087908025240155
+      }
+    },
+    {
+      "case_id": "N061",
+      "reference_department": "Orthopedics",
+      "top_candidate_department": "Orthopedics",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.06694113761965584,
+        "Neurology": 0.0836877335942315,
+        "Orthopedics": 0.3515544837782725,
+        "Urology": 0.05348971325423614
+      }
+    },
+    {
+      "case_id": "N034",
+      "reference_department": "Neurology",
+      "top_candidate_department": "Neurology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.04118199219447963,
+        "Neurology": 0.12853028179288728,
+        "Orthopedics": 0.06569529774841082,
+        "Urology": 0.03910344251457533
+      }
+    },
+    {
+      "case_id": "N035",
+      "reference_department": "Neurology",
+      "top_candidate_department": "Neurology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.017219951218920174,
+        "Neurology": 0.290837099705999,
+        "Orthopedics": 0.055811228892429614,
+        "Urology": 0.01877789935827138
+      }
+    },
+    {
+      "case_id": "N117",
+      "reference_department": "Urology",
+      "top_candidate_department": "Urology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.06530425000152187,
+        "Neurology": 0.05979552212024733,
+        "Orthopedics": 0.06834667405029125,
+        "Urology": 0.3413073996498129
+      }
+    },
+    {
+      "case_id": "N041",
+      "reference_department": "Neurology",
+      "top_candidate_department": "Neurology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.07427742103466786,
+        "Neurology": 0.09458418366188656,
+        "Orthopedics": 0.08560019291579817,
+        "Urology": 0.03890962853991758
+      }
+    },
+    {
+      "case_id": "N090",
+      "reference_department": "Orthopedics",
+      "top_candidate_department": "Orthopedics",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.035173320556280585,
+        "Neurology": 0.08433147606660288,
+        "Orthopedics": 0.31417744074111364,
+        "Urology": 0.059337869177737514
+      }
+    },
+    {
+      "case_id": "N039",
+      "reference_department": "Neurology",
+      "top_candidate_department": "Neurology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.031230509061539093,
+        "Neurology": 0.33687599761282694,
+        "Orthopedics": 0.08970970066345241,
+        "Urology": 0.02056160633464515
+      }
+    },
+    {
+      "case_id": "N118",
+      "reference_department": "Urology",
+      "top_candidate_department": "Urology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.021104589080553682,
+        "Neurology": 0.11967087205239256,
+        "Orthopedics": 0.056998370992899186,
+        "Urology": 0.3662112360551452
+      }
+    },
+    {
+      "case_id": "N094",
+      "reference_department": "Urology",
+      "top_candidate_department": "Urology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.07252018864510693,
+        "Neurology": 0.04841570465457729,
+        "Orthopedics": 0.06013156328281184,
+        "Urology": 0.329249078314128
+      }
+    },
+    {
+      "case_id": "N058",
+      "reference_department": "Neurology",
+      "top_candidate_department": "Neurology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.04867814260667746,
+        "Neurology": 0.33496092304753466,
+        "Orthopedics": 0.043932843382222,
+        "Urology": 0.025662540967790977
+      }
+    },
+    {
+      "case_id": "N022",
+      "reference_department": "Dermatology",
+      "top_candidate_department": "Dermatology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.3283880821316265,
+        "Neurology": 0.08113832265230375,
+        "Orthopedics": 0.09940556660483482,
+        "Urology": 0.01927155958323993
+      }
+    },
+    {
+      "case_id": "N105",
+      "reference_department": "Urology",
+      "top_candidate_department": "Urology",
+      "top_candidate_matches_reference": true,
+      "candidate_scores_not_probabilities": {
+        "Dermatology": 0.016240934768755388,
+        "Neurology": 0.07924313062076903,
+        "Orthopedics": 0.03304852754691363,
+        "Urology": 0.3395235681930312
+      }
+    }
+  ]
+}
